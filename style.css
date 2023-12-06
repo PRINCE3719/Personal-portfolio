@@ -338,13 +338,78 @@ progress {
 .fifth-body h1 {
     text-align: center;
     font-size: 2.7rem;
-    padding:20vh 0;
-    margin: 0;
 
 }
-.fifth-body span{
-    position: absolute;
-    bottom: 27%;
-    left: 19%;
+.fifth-body p{
+    text-align: center;
     font-size: 1.4rem;
+}
+.ed{
+    padding-top: 10vh;
+}
+.arrow-bt{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    margin-right: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#arr{
+    font-size: 1.5rem;
+    
+
+}
+@media only screen and (max-width: 750px) {
+    /* Adjustments for small screens */
+    .main-body {
+        text-align: center;
+        background-size: contain;
+    }
+
+    .image-circle img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .media {
+        margin-top: 20px;
+    }
+
+    .media img {
+        width: 40px; /* Adjust as needed */
+        margin: 0 10px;
+    }
+
+    .second-body,
+    .third-body,
+    .fourth-body,
+    .fifth-body {
+        padding: 20px;
+    }
+
+    .timeline-data,
+    .timeline-sec,
+    .timeline-thrd {
+        margin-top: 20px;
+    }
+
+    .graph-area,
+    .graph2-area {
+        margin-top: 20px;
+    }
+
+    .progress-bar {
+        height: 10px;
+    }
+
+    .fifth-body {
+        text-align: center;
+    }
 }
